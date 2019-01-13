@@ -6,6 +6,7 @@
     "title": "Gaming Ever After"
   },
   "App": {
-    "notfound": "The page you are looking for does not exist"
+    "notfound": "You are now leaving Pallet Town",
+    "return": "Continue to Viridian City..."
   }
 }

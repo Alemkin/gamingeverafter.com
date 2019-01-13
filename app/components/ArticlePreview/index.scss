@@ -1,38 +1,45 @@
 @import "../../style/variables.scss";
 
-$box-color: #2f3136;
+$box-color: #222;
 
 .article-preview {
   background: $box-color;
   border-radius: 5px;
   position: relative;
-  box-shadow: 0 0 0 4px $gray-200, 0 0 0 8px $box-color;
+  //border: 4px solid $gray-200;
+  box-shadow: 0 0 0 4px $gray-200;
   word-spacing: 3px;
+  width: 30rem;
+  color: $gray-200;
+
+  @media only screen and (max-width: 650px) {
+    width: 15rem;
+  }
 
   @-webkit-keyframes arrow_anim {
     from { margin-top: 0px; }
       to { margin-top: 3px; }
- }
+  }
 
- @-moz-keyframes arrow_anim {
+  @-moz-keyframes arrow_anim {
     from { margin-top: 0px; }
       to { margin-top: 3px; }
- }
+  }
 
- @-ms-keyframes arrow_anim {
+  @-ms-keyframes arrow_anim {
     from { margin-top: 0px; }
       to { margin-top: 3px; }
- }
+  }
 
- @-o-keyframes arrow_anim {
-    from { margin-top: 0px; }
-      to { margin-top: 3px; }
- }
+  @-o-keyframes arrow_anim {
+      from { margin-top: 0px; }
+        to { margin-top: 3px; }
+  }
 
- @keyframes arrow_anim {
-    from { margin-top: 0px; }
-      to { margin-top: 3px; }
- }
+  @keyframes arrow_anim {
+      from { margin-top: 0px; }
+        to { margin-top: 3px; }
+  }
 
   .arrow {
     border-left: 10px solid transparent;
@@ -40,11 +47,24 @@ $box-color: #2f3136;
     border-top: 10px solid #7289da;
     right: 1rem;
     position: absolute;
+  }
 
-    -webkit-animation: arrow_anim .3s steps(3) infinite;
-    -moz-animation: arrow_anim .3s steps(3) infinite;
-    -ms-animation: arrow_anim .3s steps(3) infinite;
-    -o-animation: arrow_anim .3s steps(3) infinite;
-    animation: arrow_anim .3s steps(3) infinite;
+  &:hover, &:focus {
+    text-decoration: none;
+    color: $gray-200;
+    box-shadow: 0 0 0 4px #7289da;
+    .arrow {
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid #7289da;
+      right: 1rem;
+      position: absolute;
+  
+      -webkit-animation: arrow_anim .3s steps(3) infinite;
+      -moz-animation: arrow_anim .3s steps(3) infinite;
+      -ms-animation: arrow_anim .3s steps(3) infinite;
+      -o-animation: arrow_anim .3s steps(3) infinite;
+      animation: arrow_anim .3s steps(3) infinite;
+    }
   }
 }

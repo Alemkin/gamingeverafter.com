@@ -1,11 +1,19 @@
 @import "../../style/variables.scss";
 
 .poke-main {
-  padding: 0 2rem;
+  padding: 0 1rem;
+
+  .not-found-link {
+    color: #7289da;
+  }
+
+  .not-found-image {
+    margin: 5rem auto;
+  }
 }
 
 body {
   font-family: 'Merriweather', serif;
-  background: 	#202225;
+  background: 	#222;
   color: 	$white;
 }

@@ -20,7 +20,8 @@ const getArticles = () => {
   for (let i = 0; i < 20; i++) {
     articles.push({
       title: 'hello',
-      text: 'this is the preview for an article. it is a good preview. yes. love you. anyways, how are you doing? oh, you do not want to talk? fine. I get it.'
+      text: 'this is the preview for an article. it is a good preview. yes. love you. anyways, how are you doing? oh, you do not want to talk? fine. I get it.',
+      fileName: 'massgetrekt'
     })
   }
   return articles

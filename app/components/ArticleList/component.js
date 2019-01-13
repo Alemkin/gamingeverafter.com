@@ -1,37 +1,34 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import ArticlePreview from '../ArticlePreview'
-import { Row, Col } from 'reactstrap'
 
+// TODO add image alt, desc, and titles
 const ImageAfter = ({ a }) =>
   <>
-    <Col className='mb-5' xs={9}>
-      <ArticlePreview title={a.title} text={a.text} />
-    </Col>
-    <Col xs={3}>
+    <div className='d-inline mb-5 mr-2'>
+      <ArticlePreview title={a.title} text={a.text} fileName={a.fileName} />
+    </div>
+    <div className='d-inline'>
       <img src={require('../../images/c1.gif')} />
-    </Col>
+    </div>
   </>
 
 const ImageBefore = ({ a }) =>
   <>
-    <Col xs={3} md={3}>
+    <div className='d-inline'>
       <img src={require('../../images/c2.gif')} />
-    </Col>
-    <Col className='mb-5' xs={9} md={9}>
-      <ArticlePreview title={a.title} text={a.text} />
-    </Col>
+    </div>
+    <div className='d-inline mb-5 ml-2'>
+      <ArticlePreview title={a.title} text={a.text} fileName={a.fileName} />
+    </div>
   </>
 
 const mapArticles = (a, i) =>
-  <Row key={i}>
+  <div key={i} className='d-flex'>
     {i % 2 === 0 ? <ImageAfter a={a} /> : <ImageBefore a={a} />}
-  </Row>
+  </div>
 
-const ArticleList = ({ articles }) =>
-  <>
-    {articles.map(mapArticles)}
-  </>
+const ArticleList = ({ articles }) => articles.map(mapArticles)
 
 ArticleList.propTypes = {
   articles: PropTypes.array
