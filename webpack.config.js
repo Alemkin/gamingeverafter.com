@@ -51,7 +51,7 @@ module.exports = {
       template: 'index.html.ejs',
       inject: 'body',
       filename: 'index.html',
-      title: 'R/R Boilerplate'
+      title: 'Gaming Ever After'
     })
   ],
 
