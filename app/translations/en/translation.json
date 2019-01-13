@@ -1,0 +1,11 @@
+{
+  "LoadingIcon": {
+    "loading": "LOADING ..."
+  },
+  "Header": {
+    "title": "Gaming Ever After"
+  },
+  "App": {
+    "notfound": "The page you are looking for does not exist"
+  }
+}

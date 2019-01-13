@@ -1,0 +1,50 @@
+@import "../../style/variables.scss";
+
+$box-color: #2c2f33;
+
+.article-preview {
+  background: $box-color;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0 0 0 6px $white, 0 0 0 10px $box-color;
+  word-spacing: 3px;
+
+  @-webkit-keyframes arrow_anim {
+    from { margin-top: 0px; }
+      to { margin-top: 3px; }
+ }
+
+ @-moz-keyframes arrow_anim {
+    from { margin-top: 0px; }
+      to { margin-top: 3px; }
+ }
+
+ @-ms-keyframes arrow_anim {
+    from { margin-top: 0px; }
+      to { margin-top: 3px; }
+ }
+
+ @-o-keyframes arrow_anim {
+    from { margin-top: 0px; }
+      to { margin-top: 3px; }
+ }
+
+ @keyframes arrow_anim {
+    from { margin-top: 0px; }
+      to { margin-top: 3px; }
+ }
+
+  .arrow {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid $red;
+    right: 1rem;
+    position: absolute;
+
+    -webkit-animation: arrow_anim .3s steps(3) infinite;
+    -moz-animation: arrow_anim .3s steps(3) infinite;
+    -ms-animation: arrow_anim .3s steps(3) infinite;
+    -o-animation: arrow_anim .3s steps(3) infinite;
+    animation: arrow_anim .3s steps(3) infinite;
+  }
+}
