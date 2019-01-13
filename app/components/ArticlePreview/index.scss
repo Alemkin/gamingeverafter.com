@@ -1,12 +1,12 @@
 @import "../../style/variables.scss";
 
-$box-color: #2c2f33;
+$box-color: #2f3136;
 
 .article-preview {
   background: $box-color;
   border-radius: 5px;
   position: relative;
-  box-shadow: 0 0 0 6px $white, 0 0 0 10px $box-color;
+  box-shadow: 0 0 0 4px $gray-200, 0 0 0 8px $box-color;
   word-spacing: 3px;
 
   @-webkit-keyframes arrow_anim {
@@ -37,7 +37,7 @@ $box-color: #2c2f33;
   .arrow {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 10px solid $red;
+    border-top: 10px solid #7289da;
     right: 1rem;
     position: absolute;
 
