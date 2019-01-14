@@ -11,7 +11,7 @@ const t = translateComponent('App')
 const NotFound = () =>
   <div className='text-center'>
     <h1>{t('notfound')}</h1>
-    <img className='img-fluid not-found-image' src={require('../../images/pikaash.gif')} />
+    <img alt='8 bit Ash and Pikachu Walking' title='Ash and Pikachu Walking' className='img-fluid not-found-image' src={require('../../images/pikaash.gif')} />
     <Link className='d-block not-found-link' to='/'><h5>{t('return')}</h5></Link>
   </div>
 

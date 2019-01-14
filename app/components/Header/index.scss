@@ -3,17 +3,11 @@
 .header {
   padding: 1rem;
   margin-bottom: 1rem;
-  text-align: center;
-
-  .header-title {
-    display: inline;
-    @media only screen and (max-width: 600px) {
-      display: block;
-    }
-  }
+  display: flex;
+  justify-content: center;
 
   .header-image {
     width: 5rem;
-    display: inline;
+    height: 3em;
   }
 }
