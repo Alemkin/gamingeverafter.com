@@ -2,18 +2,24 @@
 
 .poke-main {
   padding: 0 1rem;
-
-  .not-found-link {
-    color: #7289da;
-  }
-
-  .not-found-image {
-    margin: 5rem auto;
-  }
 }
 
 body {
   font-family: 'Merriweather', serif;
   background: 	#222;
   color: 	$white;
+
+  a {
+    color: $themePurple;
+    text-decoration: none;
+
+    &:hover, &:focus{
+      text-decoration: none;
+      color: lighten($themePurple, 10%);
+    }
+  }
+
+  code {
+    color: $pastelPink;
+  }
 }

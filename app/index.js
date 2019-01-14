@@ -8,7 +8,7 @@ import store from './store'
 import './service'
 import './sagas'
 
-import '../favicon.ico'
+import '../images/favicon.ico'
 
 import { initTranslator } from './utils/translate'
 initTranslator()

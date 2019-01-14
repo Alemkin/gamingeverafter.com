@@ -23,7 +23,7 @@ $box-color: #222;
   .arrow {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 10px solid #7289da;
+    border-top: 10px solid $themePurple;
     right: 1rem;
     position: absolute;
   }
@@ -31,13 +31,13 @@ $box-color: #222;
   &:hover, &:focus {
     text-decoration: none;
     color: $gray-200;
-    box-shadow: 0 0 0 4px #7289da;
+    box-shadow: 0 0 0 4px $themePurple;
     // Showing the box shadow instead of outline
     outline: none;
     .arrow {
       border-left: 10px solid transparent;
       border-right: 10px solid transparent;
-      border-top: 10px solid #7289da;
+      border-top: 10px solid $themePurple;
       right: 1rem;
       position: absolute;
       animation: arrow_anim .4s steps(3) infinite;

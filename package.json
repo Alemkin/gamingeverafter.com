@@ -1,38 +1,17 @@
 {
-  "name": "react-redux-boilerplate",
+  "name": "gamingeverafter.com",
   "version": "0.0.1",
-  "description": "React/Redux Boilerplate",
-  "repository": "https://github.com/Alemkin/react-redux-boilerplate",
+  "description": "Gaming Ever After Blog",
+  "repository": "https://github.com/Alemkin/gamingeverafter.com",
   "main": "/app",
   "author": "Alexander Lemkin",
   "scripts": {
     "lint": "standard \"./app/**/*.js\" | snazzy",
-    "test": "cross-env NODE_ENV=test jest --verbose --watchAll",
     "build": "cross-env NODE_ENV=production webpack --mode production",
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --disable-host-check",
-    "story": "start-storybook -p 9998",
-    "build-storybook": "build-storybook"
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --disable-host-check"
   },
   "standard": {
-    "parser": "babel-eslint",
-    "env": [
-      "jest"
-    ]
-  },
-  "jest": {
-    "testRegex": "\\.test\\.js",
-    "moduleFileExtensions": [
-      "js",
-      "jsx"
-    ],
-    "moduleDirectories": [
-      "node_modules",
-      "app"
-    ],
-    "moduleNameMapper": {
-      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
-      "\\.(css|scss)$": "identity-obj-proxy"
-    }
+    "parser": "babel-eslint"
   },
   "dependencies": {
     "async-ops": "1.1.2",
@@ -43,6 +22,7 @@
     "prop-types": "15.6.2",
     "react": "16.7.0",
     "react-dom": "16.7.0",
+    "react-markdown": "4.0.6",
     "react-redux": "6.0.0",
     "react-router-dom": "4.3.1",
     "reactstrap": "7.0.2",
@@ -54,15 +34,8 @@
     "@babel/core": "7.2.2",
     "@babel/preset-env": "7.2.0",
     "@babel/preset-react": "7.0.0",
-    "@storybook/addon-actions": "4.1.2",
-    "@storybook/addon-knobs": "4.1.2",
-    "@storybook/addon-links": "4.1.2",
-    "@storybook/addons": "4.1.2",
-    "@storybook/react": "4.1.2",
-    "addon-redux": "0.1.2",
     "autoprefixer": "9.4.3",
     "babel-eslint": "10.0.1",
-    "babel-jest": "23.6.0",
     "babel-loader": "8.0.4",
     "babel-plugin-transform-object-rest-spread": "7.0.0-beta.3",
     "bootstrap": "4.2.1",
@@ -75,7 +48,6 @@
     "html-webpack-plugin": "3.2.0",
     "i18next-resource-store-loader": "0.1.2",
     "identity-obj-proxy": "3.0.0",
-    "jest": "23.6.0",
     "mini-css-extract-plugin": "0.5.0",
     "node-sass": "4.11.0",
     "optimize-css-assets-webpack-plugin": "5.0.1",

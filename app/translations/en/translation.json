@@ -5,7 +5,7 @@
   "Header": {
     "title": "Gaming Ever After"
   },
-  "App": {
+  "NotFound": {
     "notfound": "You are now leaving Pallet Town",
     "return": "Continue to Viridian City..."
   }
