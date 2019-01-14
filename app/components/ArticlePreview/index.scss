@@ -1,15 +1,12 @@
 @import "../../style/variables.scss";
 
-$box-color: #222;
-
 .article-preview {
-  background: $box-color;
   border-radius: 5px;
   position: relative;
-  box-shadow: 0 0 0 4px $gray-200;
+  box-shadow: 0 0 0 4px $gray-100;
   word-spacing: 3px;
   width: 30rem;
-  color: $gray-200;
+  color: $gray-100;
 
   @media only screen and (max-width: 650px) {
     width: 15rem;
@@ -30,7 +27,7 @@ $box-color: #222;
 
   &:hover, &:focus {
     text-decoration: none;
-    color: $gray-200;
+    color: $gray-100;
     box-shadow: 0 0 0 4px $themePurple;
     // Showing the box shadow instead of outline
     outline: none;
