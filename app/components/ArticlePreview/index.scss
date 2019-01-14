@@ -13,8 +13,12 @@
   }
 
   @keyframes arrow_anim {
-      from { margin-top: 0px; }
-        to { margin-top: 4px; }
+    from { margin-top: 0px; }
+    to { margin-top: 4px; }
+  }
+
+  .preview-title {
+    color: $pastelPink;
   }
 
   .arrow {

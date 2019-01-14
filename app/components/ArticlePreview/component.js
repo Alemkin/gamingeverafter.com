@@ -5,7 +5,7 @@ import './index.scss'
 
 const ArticlePreview = ({ title, text, fileName }) =>
   <Link to={'/article/' + fileName} className='article-preview p-4 d-block' title={title}>
-    <h4>{title}</h4>
+    <h4 className='preview-title'>{title}</h4>
     <p>{text}</p>
     <div className='arrow' />
   </Link>

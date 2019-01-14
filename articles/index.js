@@ -1,4 +1,8 @@
 export var articles = [{
+  title: 'Spider MAN',
+  text: 'Peter Parker is all grown up, and we\'re here too say, yeah he\'s hot. Tune in for all of the risque snaps we took swinging around the skyscrpaers of Manhattan',
+  fileName: 'spiderman2018'
+}, {
   title: 'Mass Get Rekt',
   text: 'We can\'t tell you how many times we got rekt in this game. However, the upside is that commander femshep is a total badass, and we totally banged Tali',
   fileName: 'massgetrekt'
