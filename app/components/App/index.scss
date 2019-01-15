@@ -2,11 +2,31 @@
 
 .poke-main {
   padding: 0 1rem;
+  width: 75%;
+  background: $themeBlacker;
+      
+  @media only screen and (max-width: 800px) {
+    width: 100%;
+  }
+
+  .menu {
+    text-align: center;
+
+    a {
+      margin: 0 2rem 2rem 2rem;
+      color: $gray-200;
+
+      @media only screen and (max-width: 800px) {
+        display: block;
+        margin: 0;
+      }
+    }
+  }
 }
 
 body {
   font-family: 'Merriweather', serif;
-  background: 	$themeBlack;
+  background: $themeBlacker;
   color: 	$white;
 
   a {
@@ -21,5 +41,17 @@ body {
 
   code {
     color: $pastelPink;
+  }
+
+  #app {
+    display: flex;
+    justify-content: center;
+    background-image: url("../../../images/oldschool.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+      
+    @media only screen and (max-width: 800px) {
+      background-image: none;
+    }
   }
 }

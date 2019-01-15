@@ -25,7 +25,7 @@ const ImageBefore = ({ a }) =>
   </>
 
 const mapArticle = (a, i) =>
-  <div id={i + a.title} key={i} className='d-flex justify-content-center align-items-center'>
+  <div id={a.fileName} key={i} className='d-flex justify-content-center align-items-center'>
     {i % 2 === 0 ? <ImageAfter a={a} /> : <ImageBefore a={a} />}
   </div>
 
