@@ -22,7 +22,7 @@ const lifecycleMethods = {
     }
     const article = await window.fetch(filterMd[0]).then((res) => res.text())
     // TODO remove settimeout, it's just for show at the moment
-    setTimeout(() => this.props.setArticle(article), 2000)
+    setTimeout(() => this.props.setArticle(article), 1000)
   }
 }
 
