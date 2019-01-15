@@ -21,7 +21,8 @@ const lifecycleMethods = {
       return
     }
     const article = await window.fetch(filterMd[0]).then((res) => res.text())
-    this.props.setArticle(article)
+    // TODO remove settimeout, it's just for show at the moment
+    setTimeout(() => this.props.setArticle(article), 2000)
   }
 }
 
