@@ -9,7 +9,7 @@ import './index.scss'
 
 // TODO move out to own component, add arrows to links
 const Menu = () =>
-  <div className='menu p-2 m-4'>
+  <div className='menu p-2'>
     <Link to='/about'>{'About'}</Link>
     <Link to='/contact'>{'Contact'}</Link>
     <Link to='/games'>{'Games'}</Link>
