@@ -5,10 +5,9 @@ import NotFound from '../NotFound'
 import LoadingIcon from '../LoadingIcon'
 import './index.scss'
 
-// TODO show not found if no article
-const Article = ({ article }) => {
+const Article = ({ article, loading }) => {
   if (article === 'notfound') return <NotFound />
-  if (article === 'loading') return <LoadingIcon />
+  if (loading) return <LoadingIcon />
   return (
     <div className='article'>
       <Markdown source={article} />
@@ -17,7 +16,8 @@ const Article = ({ article }) => {
 }
 
 Article.propTypes = {
-  article: PropTypes.string.isRequired
+  article: PropTypes.string.isRequired,
+  loading: PropTypes.bool.isRequired
 }
 
 export default Article

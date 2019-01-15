@@ -2,26 +2,11 @@
 
 .poke-main {
   padding: 0 1rem;
-  width: 75%;
+  width: 80%;
   background: $themeBlacker;
       
   @media only screen and (max-width: 800px) {
     width: 100%;
-  }
-
-  .menu {
-    text-align: center;
-    margin: 2rem 0;
-
-    a {
-      margin: 0 2rem;
-      color: $gray-200;
-
-      @media only screen and (max-width: 800px) {
-        display: block;
-        margin: 0;
-      }
-    }
   }
 }
 

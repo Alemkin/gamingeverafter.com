@@ -1,0 +1,45 @@
+@import "../../style/variables.scss";
+
+.menu {
+  text-align: center;
+  margin: 2rem 0;
+  position: relative;
+
+  .menu-link {
+    margin: 0 2rem;
+    color: $gray-200;
+
+    &.selected {
+      border: 2px solid;
+      border-radius: 5px;
+      padding: 0 5px;
+    }
+
+    .title {
+      padding: 0 1rem;
+    }
+    
+    &:hover, &:focus {
+      text-decoration: none;
+      // Showing the arrow instead of outline
+      outline: none;
+      .arrow-menu {
+        border-color: transparent $gray-100;
+        border-style: solid;
+        border-width: 8px 0px 8px 8px;
+        position: absolute;
+        top: 3px;
+        animation: arrow_anim_menu .4s steps(3) infinite;
+      }
+    }
+    
+    @media only screen and (max-width: 800px) {
+      margin: 0;
+    }
+  }
+
+  @keyframes arrow_anim_menu {
+    from { margin-right: 0px; }
+    to { margin-left: 5px; }
+  }
+}

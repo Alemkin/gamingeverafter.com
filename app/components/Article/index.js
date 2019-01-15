@@ -1,6 +1,8 @@
-import { compose, lifecycle, withState } from 'recompose'
+import { compose, lifecycle } from 'recompose'
 import { connect } from 'react-redux'
+import { bindActionCreators } from 'redux'
 import { get } from 'lodash'
+import { loadArticle } from '../../actions/article'
 import Article from './component'
 
 const importAll = (r) => r.keys().map(r)
@@ -9,26 +11,23 @@ const markdownFiles = importAll(require.context('../../../articles', false, /\.m
 const getArticleName = props => get(props, 'match.params.id')
 
 const mapStateToProps = (state, props) => ({
-  articleName: getArticleName(props)
+  articleName: getArticleName(props),
+  loading: state.article.loading,
+  article: state.article.content
 })
 
-const markdownFileMatches = articleName => m => m.includes(articleName)
+const mapDispatchToProps = dispatch => bindActionCreators({
+  loadArticle
+}, dispatch)
+
 const lifecycleMethods = {
-  async componentWillMount () {
-    const filterMd = markdownFiles.filter(markdownFileMatches(this.props.articleName))
-    if (!filterMd[0]) {
-      this.props.setArticle('notfound')
-      return
-    }
-    const article = await window.fetch(filterMd[0]).then((res) => res.text())
-    // TODO remove settimeout, it's just for show at the moment
-    setTimeout(() => this.props.setArticle(article), 1000)
+  componentWillMount () {
+    this.props.loadArticle(this.props.articleName, markdownFiles)
   }
 }
 
 const enhance = compose(
-  connect(mapStateToProps, null),
-  withState('article', 'setArticle', 'loading'),
+  connect(mapStateToProps, mapDispatchToProps),
   lifecycle(lifecycleMethods)
 )
 
