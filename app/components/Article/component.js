@@ -9,9 +9,9 @@ const Article = ({ article, loading }) => {
   if (article === 'notfound') return <NotFound />
   if (loading) return <LoadingIcon />
   return (
-    <div className='article'>
+    <main className='article'>
       <Markdown source={article} />
-    </div>
+    </main>
   )
 }
 

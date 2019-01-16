@@ -30,9 +30,9 @@ const mapArticle = (a, i) =>
   </div>
 
 const ArticleList = () =>
-  <div className='article-list'>
+  <main className='article-list'>
     {articles.map(mapArticle)}
-  </div>
+  </main>
 
 ArticleList.propTypes = {
   articles: PropTypes.array

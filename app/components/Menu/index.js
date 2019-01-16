@@ -11,11 +11,11 @@ const MenuLink = ({ route, title, currentRoute }) =>
 
 // TODO translate
 const Menu = ({ location }) =>
-  <div className='menu'>
+  <nav className='menu'>
     <MenuLink currentRoute={location.pathname} route='/about' title='About' />
     <MenuLink currentRoute={location.pathname} route='/contact' title='Contact' />
     <MenuLink currentRoute={location.pathname} route='/games' title='Games' />
     <MenuLink currentRoute={location.pathname} route='/fight' title='Fight' />
-  </div>
+  </nav>
 
 export default withRouter(Menu)
