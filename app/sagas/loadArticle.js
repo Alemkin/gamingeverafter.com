@@ -1,5 +1,4 @@
-import { takeEvery, put } from 'redux-saga/effects'
-import { delay } from 'redux-saga'
+import { takeEvery, put, delay } from 'redux-saga/effects'
 import { sagaMiddleware } from '../store/middleware'
 import { LOAD_ARTICLE, loadArticleComplete } from '../reducers/article'
 
