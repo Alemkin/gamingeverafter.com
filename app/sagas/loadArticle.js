@@ -1,8 +1,7 @@
 import { takeEvery, put } from 'redux-saga/effects'
 import { delay } from 'redux-saga'
 import { sagaMiddleware } from '../store/middleware'
-import { LOAD_ARTICLE } from '../constants/actionTypes'
-import { loadArticleComplete } from '../actions/article'
+import { LOAD_ARTICLE, loadArticleComplete } from '../reducers/article'
 
 export default function * loadArticle () {
   yield takeEvery(LOAD_ARTICLE, work)
@@ -19,7 +18,7 @@ export function * work (action) {
   const res = yield window.fetch(filterMd[0])
   const article = yield res.text()
 
-  // TODO remove delay, just for loaidng fun right now
+  // TODO remove delay, just for loading fun right now
   yield delay(1000)
   yield put(loadArticleComplete(article))
 }

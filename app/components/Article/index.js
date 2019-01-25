@@ -2,7 +2,7 @@ import { compose, lifecycle } from 'recompose'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import { get } from 'lodash'
-import { loadArticle } from '../../actions/article'
+import { loadArticle } from '../../reducers/article'
 import Article from './component'
 
 const importAll = (r) => r.keys().map(r)
