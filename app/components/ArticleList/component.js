@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import ArticlePreview from '../ArticlePreview'
 import articles from '../../../articles'
-import './index.scss'
 
 const ImageAfter = ({ a }) =>
   <>

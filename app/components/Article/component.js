@@ -1,16 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import PropTypes from 'prop-types'
 import Markdown from '../Markdown'
 import NotFound from '../NotFound'
 import LoadingIcon from '../LoadingIcon'
-import './index.scss'
 
-const Article = ({ article, loading }) => {
-  if (article === 'notfound') return <NotFound />
-  if (loading) return <LoadingIcon />
+const Article = props => {
+  useEffect(props.useLoadArticle(props), [])
+
+  if (props.article === 'notfound') return <NotFound />
+
+  if (props.loading) return <LoadingIcon />
+
   return (
     <main className='article'>
-      <Markdown source={article} />
+      <Markdown source={props.article} />
     </main>
   )
 }

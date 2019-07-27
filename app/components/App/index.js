@@ -1,4 +1,4 @@
-import { compose } from 'recompose'
+import { compose } from 'redux'
 import { withRouter } from 'react-router'
 import App from './component'
 

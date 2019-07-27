@@ -1,4 +1,4 @@
-# Lorem Ipsum
+# Kingdom of My Heart
 
 *Lorem Ipsum* is a simple lorem ipsum generator for iOS and macOS apps. It supports generating text in different formats (words, sentences, paragraphs), miscelianous data (names, URLs, dates etc.) and placeholder images for both, iOS and macOS.
 

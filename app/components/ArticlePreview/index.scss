@@ -13,7 +13,7 @@
   }
 
   @keyframes arrow_anim {
-    from { margin-top: 0px; }
+    from { margin-top: 0; }
     to { margin-top: 3px; }
   }
 
@@ -29,19 +29,21 @@
     position: absolute;
   }
 
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     text-decoration: none;
     color: $gray-100;
     box-shadow: 0 0 0 4px $themePurple;
     // Showing the box shadow instead of outline
     outline: none;
+
     .arrow {
       border-left: 10px solid transparent;
       border-right: 10px solid transparent;
       border-top: 10px solid $themePurple;
       right: 1rem;
       position: absolute;
-      animation: arrow_anim .4s steps(3) infinite;
+      animation: arrow_anim 0.4s steps(3) infinite;
     }
   }
 }

@@ -18,28 +18,30 @@
     .title {
       padding: 0 1rem;
     }
-    
-    &:hover, &:focus {
+
+    &:hover,
+    &:focus {
       text-decoration: none;
       // Showing the arrow instead of outline
       outline: none;
+
       .arrow-menu {
         border-color: transparent $gray-100;
         border-style: solid;
-        border-width: 8px 0px 8px 8px;
+        border-width: 8px 0 8px 8px;
         position: absolute;
         top: 3px;
-        animation: arrow_anim_menu .4s steps(3) infinite;
+        animation: arrow_anim_menu 0.4s steps(3) infinite;
       }
     }
-    
+
     @media only screen and (max-width: 800px) {
       margin: 0;
     }
   }
 
   @keyframes arrow_anim_menu {
-    from { margin-right: 0px; }
+    from { margin-right: 0; }
     to { margin-left: 4px; }
   }
 }

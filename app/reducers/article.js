@@ -1,5 +1,6 @@
 export const LOAD_ARTICLE = 'LOAD_ARTICLE'
 export const LOAD_ARTICLE_COMPLETE = 'LOAD_ARTICLE_COMPLETE'
+export const CLEAR_ARTICLE = 'CLEAR_ARTICLE'
 
 export const loadArticle = (name, articles) => ({
   type: LOAD_ARTICLE,
@@ -10,6 +11,10 @@ export const loadArticle = (name, articles) => ({
 export const loadArticleComplete = article => ({
   type: LOAD_ARTICLE_COMPLETE,
   article
+})
+
+export const clearArticle = () => ({
+  type: CLEAR_ARTICLE
 })
 
 const initialError = {
@@ -28,6 +33,7 @@ export default function (state = initialState, action) {
   switch (action.type) {
     case LOAD_ARTICLE: return { ...state, loading: true, content: '' }
     case LOAD_ARTICLE_COMPLETE: return { ...state, loading: false, content: action.article }
+    case CLEAR_ARTICLE: return { ...initialState }
     default: return state
   }
 }

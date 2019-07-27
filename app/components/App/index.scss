@@ -4,7 +4,7 @@
   padding: 0 1rem;
   width: 80%;
   background: $themeBlacker;
-      
+
   @media only screen and (max-width: 800px) {
     width: 100%;
   }
@@ -13,13 +13,14 @@
 body {
   font-family: 'Merriweather', serif;
   background: $themeBlacker;
-  color: 	$white;
+  color: $white;
 
   a {
     color: $themePurple;
     text-decoration: none;
 
-    &:hover, &:focus{
+    &:hover,
+    &:focus {
       text-decoration: none;
       color: lighten($themePurple, 10%);
     }
@@ -35,7 +36,7 @@ body {
     background-image: url("../../../images/oldschool.jpg");
     min-height: 100vh;
     background-attachment: fixed;
-      
+
     @media only screen and (max-width: 800px) {
       background-image: none;
     }

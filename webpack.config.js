@@ -2,7 +2,7 @@ const path = require('path')
 const EncodingPlugin = require('webpack-encoding-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+const TerserPlugin = require('terser-webpack-plugin')
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 
 const encodingPlugin = new EncodingPlugin({
@@ -11,10 +11,11 @@ const encodingPlugin = new EncodingPlugin({
 
 const minimize = {
   minimizer: [
-    new UglifyJsPlugin({
-      cache: true,
+    new TerserPlugin({
       parallel: true,
-      sourceMap: true // set to true if you want JS source maps
+      terserOptions: {
+        ecma: 5
+      }
     }),
     new OptimizeCSSAssetsPlugin({})
   ]
