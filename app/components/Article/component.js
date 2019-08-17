@@ -9,10 +9,9 @@ const Article = props => {
 
   if (props.article === 'notfound') return <NotFound />
 
-  if (props.loading) return <LoadingIcon />
-
   return (
     <main className='article'>
+      <LoadingIcon show={props.loading} />
       <Markdown source={props.article} />
     </main>
   )

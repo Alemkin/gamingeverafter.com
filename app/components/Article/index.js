@@ -9,10 +9,10 @@ const markdownFiles = importAll(require.context('../../../articles', false, /\.m
 
 const getArticleName = props => get(props, 'match.params.id')
 
-const loadArticleAsync = props => () => {
-  props.loadArticle(props.articleName, markdownFiles)
+const loadArticleAsync = ({ loadArticle, clearArticle, articleName }) => () => {
+  loadArticle(articleName, markdownFiles)
 
-  return () => props.clearArticle()
+  return () => clearArticle()
 }
 
 const mapStateToProps = (state, props) => ({
