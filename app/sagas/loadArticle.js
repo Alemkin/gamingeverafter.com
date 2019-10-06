@@ -18,7 +18,7 @@ export function * work (action) {
   const article = yield res.text()
 
   // TODO remove delay, just for loading fun right now
-  yield delay(1000)
+  yield delay(300)
   yield put(loadArticleComplete(article))
 }
 

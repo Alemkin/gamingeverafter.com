@@ -1,31 +1,31 @@
 export var articles = [{
-  title: 'Spider MAN',
-  text: 'Peter Parker is all grown up, and we\'re here too say, yeah he\'s hot. Tune in for all of the risque snaps we took swinging around the skyscrpaers of Manhattan',
-  fileName: 'spiderman2018',
-  tags: [],
-  authors: [],
-  related: []
+  title: 'Chapter Four: Worgs and Rats and Cats, Oh My!',
+  text: 'The adventurers get caught up in a whirlwind of trouble, that they seem to keep causing.',
+  fileName: 'sessionfour',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd']
 }, {
-  title: 'Mass Get Rekt',
-  text: 'We can\'t tell you how many times we got rekt in this game. However, the upside is that commander femshep is a total badass, and we totally banged Tali',
-  fileName: 'massgetrekt',
-  tags: [],
-  authors: [],
-  related: []
+  title: 'Chapter Three: Just Up The Alley',
+  text: 'The adventurers find themselves in a silly game of cat and mouse.',
+  fileName: 'sessionthree',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd']
 }, {
-  title: 'Falling Out',
-  text: 'Nothing like walking through the wasteland forever, never running out of things to do or find. Kind of odd that a post-apocalyptic wasteland is so full of life',
-  fileName: 'fallout4',
-  tags: [],
-  authors: [],
-  related: []
+  title: 'Chapter Two: Welcome Home',
+  text: 'The adventurers head back home after a long few days, and find everything is almost right where they put it...',
+  fileName: 'sessiontwo',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd']
 }, {
-  title: 'Kingdom of my Heart',
-  text: 'A lifelong pursuit of fandom in everything disney, coupled with cheesy final fantasy characters and tropes? Yes please.',
-  fileName: 'kingdomhearts1',
-  tags: [],
-  authors: [],
-  related: []
+  title: 'Chapter One: Are We the Baddies?',
+  text: 'The adventurers begin their journey in the land of \'The Abandoned Star\', and they can\'t quite figure out if they\'re the good guys.',
+  fileName: 'sessionone',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd']
 }]
 
 export default articles
