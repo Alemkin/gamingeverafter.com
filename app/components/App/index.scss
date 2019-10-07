@@ -1,9 +1,9 @@
 @import "../../style/variables.scss";
 
-.poke-main {
+.gaming-main {
   padding: 0 1rem;
   width: 80%;
-  background: $themeBlacker;
+  background: $black;
 
   @media only screen and (max-width: 800px) {
     width: 100%;
@@ -11,8 +11,8 @@
 }
 
 body {
-  font-family: 'Merriweather', serif;
-  background: $themeBlacker;
+  font-family: 'Noto Sans TC', sans-serif;
+  background: $black;
   color: $white;
 
   a {

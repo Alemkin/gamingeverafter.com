@@ -13,7 +13,7 @@ import Menu from '../Menu'
 import './index.scss'
 
 const App = () =>
-  <div className='poke-main'>
+  <div className='gaming-main'>
     <Container fluid>
       <Row>
         <Col>
