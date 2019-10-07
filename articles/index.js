@@ -1,4 +1,11 @@
 export var articles = [{
+  title: 'Chapter Five: Adventures in Jersey Hill: Re/Dream?',
+  text: 'The adventurers find themselves somewhere familiar, and very orange.',
+  fileName: 'sessionfive',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd']
+}, {
   title: 'Chapter Four: Worgs and Rats and Cats, Oh My!',
   text: 'The adventurers get caught up in a whirlwind of trouble, that they seem to keep causing.',
   fileName: 'sessionfour',
