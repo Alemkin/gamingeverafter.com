@@ -21,7 +21,8 @@
     }
 
     &:hover,
-    &:focus {
+    &:focus,
+    &.selected {
       text-decoration: none;
       // Showing the arrow instead of outline
       outline: none;
