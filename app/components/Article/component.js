@@ -4,6 +4,7 @@ import Markdown from '../Markdown'
 import NotFound from '../NotFound'
 import LoadingIcon from '../LoadingIcon'
 import articles from '../../../articles'
+import './index.scss'
 
 const findArticle = articleName => article => article.fileName === articleName
 
@@ -15,7 +16,7 @@ const Article = props => {
   return (
     <main className='article'>
       <LoadingIcon show={props.loading} />
-      <h1 className='mb-4'>{article && article.title}</h1>
+      {props.article && <h1 className='mb-4 article-title'>{article && article.title}</h1>}
       <Markdown source={props.article} />
     </main>
   )

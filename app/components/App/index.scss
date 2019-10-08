@@ -10,6 +10,11 @@
   }
 }
 
+@font-face {
+  font-family: "Determination";
+  src: url("/fonts/DeterminationMonoWeb.woff") format("woff");
+}
+
 body {
   font-family: 'Exo 2', sans-serif;
   background: $black;
@@ -28,6 +33,11 @@ body {
 
   code {
     color: $pastelPink;
+  }
+
+  h1,
+  h2 {
+    font-family: 'Determination', sans-serif;
   }
 
   #app {

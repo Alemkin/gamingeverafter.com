@@ -9,6 +9,7 @@ import './service'
 import './sagas'
 
 import '../images/favicon.ico'
+import '../fonts/DeterminationMonoWeb.woff'
 
 import { initTranslator } from './utils/translate'
 initTranslator()
