@@ -1,4 +1,11 @@
 export var articles = [{
+  title: 'Chapter Six: A Minstel\'s Journey',
+  text: 'Awake again, although perhaps wishing they were not, our adventurers find themselves thrust into another conflict due to a mess they made that is not easily cleaned up.',
+  fileName: 'sessionsix',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd']
+}, {
   title: 'Chapter Five: Adventures in Jersey Hill: Re/Dream?',
   text: 'The adventurers find themselves somewhere familiar, and very orange.',
   fileName: 'sessionfive',
