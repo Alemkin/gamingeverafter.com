@@ -3,7 +3,7 @@
 .gaming-main {
   padding: 0 1rem;
   width: 80%;
-  background: $black;
+  background: $themeBackground;
 
   @media only screen and (max-width: 800px) {
     width: 100%;
@@ -16,9 +16,9 @@
 }
 
 body {
-  font-family: 'Exo 2', sans-serif;
-  background: $black;
-  color: $white;
+  font-family: 'Lato', sans-serif;
+  background: $themeBackground;
+  color: $themeFontColor;
 
   a {
     color: $themePurple;

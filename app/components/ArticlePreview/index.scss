@@ -3,10 +3,10 @@
 .article-preview {
   border-radius: 5px;
   position: relative;
-  box-shadow: 0 0 0 4px $gray-100;
+  box-shadow: 0 0 0 4px $themeFontColor;
   word-spacing: 3px;
   width: 30rem;
-  color: $gray-100;
+  color: $themeFontColor;
   font-family: 'Determination', sans-serif;
 
   @media only screen and (max-width: 800px) {
@@ -29,7 +29,7 @@
   &:hover,
   &:focus {
     text-decoration: none;
-    color: $gray-100;
+    color: $themeFontColor;
     box-shadow: 0 0 0 4px $themePurple;
     // Showing the box shadow instead of outline
     outline: none;
