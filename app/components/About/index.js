@@ -2,7 +2,7 @@ import React from 'react'
 import './index.scss'
 
 const About = props =>
-  <main className='about mt-4'>
+  <main className='about mt-4 page-wrapper'>
     <h2>About Us</h2>
     <br />
     <p>

@@ -2,7 +2,7 @@ import React from 'react'
 import './index.scss'
 
 const Contact = props =>
-  <main className='contact mt-4'>
+  <main className='contact page-wrapper mt-4'>
     <p>
       {'You can shoot me an email at: '} <a href='mailto:gamingeverafter@alemkin.com'>{'gamingeverafter@alemkin.com'}</a>
     </p>

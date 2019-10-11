@@ -2,7 +2,7 @@ import React from 'react'
 import './index.scss'
 
 const Games = props =>
-  <main className='games mt-4'>
+  <main className='games page-wrapper mt-4'>
     <a href='https://dnd.wizards.com/articles/features/basicrules' target='_blank'>{'Dungeons and Dragons 5E'}</a>
     <a href='https://www.thelastofus.playstation.com/' target='_blank'>{'The Last of Us'}</a>
     <a href='https://www.stardewvalley.net' target='_blank'>{'Stardew Valley'}</a>
