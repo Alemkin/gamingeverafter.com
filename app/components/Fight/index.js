@@ -1,5 +1,4 @@
 import React from 'react'
-import './index.scss'
 
 const Fight = props =>
   <main className='fight page-wrapper mt-4'>

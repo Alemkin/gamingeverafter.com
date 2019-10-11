@@ -1,5 +1,4 @@
 import React from 'react'
-import './index.scss'
 
 const About = props =>
   <main className='about mt-4 page-wrapper'>

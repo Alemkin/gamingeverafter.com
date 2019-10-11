@@ -1,5 +1,4 @@
 import React from 'react'
-import './index.scss'
 
 const Contact = props =>
   <main className='contact page-wrapper mt-4'>
