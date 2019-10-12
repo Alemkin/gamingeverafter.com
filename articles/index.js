@@ -1,5 +1,5 @@
 export var articles = [{
-  title: 'Chapter Six: A Minstel\'s Journey',
+  title: 'Chapter Six: A Minstrel\'s Journey',
   text: 'Awake again, although perhaps wishing they were not, our adventurers find themselves thrust into another conflict due to a mess they made that is not easily cleaned up.',
   fileName: 'sessionsix',
   tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
