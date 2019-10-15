@@ -8,6 +8,8 @@ import './index.scss'
 
 const findArticle = articleName => article => article.fileName === articleName
 
+const backToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' })
+
 const Article = props => {
   useEffect(props.useLoadArticle(props), [])
 
@@ -18,6 +20,7 @@ const Article = props => {
       <LoadingIcon show={props.loading} />
       {props.article && <h1 className='mb-4 article-title'>{article && article.title}</h1>}
       <Markdown source={props.article} />
+      {props.article && <i title='Back To Top' onClick={backToTop} className='back-to-top-link far fa-arrow-alt-circle-up' />}
     </main>
   )
 }
