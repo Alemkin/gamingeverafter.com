@@ -6,15 +6,19 @@
   margin-bottom: 10rem;
 
   .back-to-top-link {
-    color: $themePurple;
+    color: $themeBlue;
     text-align: center;
     position: fixed;
     bottom: 2rem;
-    right: 12rem;
+    right: 18rem;
     z-index: 1;
     padding: 0 0.875rem;
     font-size: 42px;
     cursor: pointer;
+
+    @media only screen and (min-width: 801px) and (max-width: 1024px) {
+      right: 12rem;
+    }
 
     @media only screen and (max-width: 800px) {
       right: 1rem;
@@ -22,6 +26,6 @@
   }
 
   @media only screen and (min-width: 1024px) {
-    padding: 0 10rem;
+    padding: 0 8rem;
   }
 }

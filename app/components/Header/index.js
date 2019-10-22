@@ -7,10 +7,9 @@ import './index.scss'
 const t = translateComponent('Header')
 
 const Header = () =>
-  <div className='header align-items-center'>
-    <img alt='8 bit Tali from Mass Effect' className='header-image-before mr-4' src={require('../../../images/tali.png')} />
-    <Link to='/'><h1 title={t('title')} className='header-title'>{t('title')}</h1></Link>
-    <img alt='8 bit Liara from Mass Effect' className='header-image-after ml-4' src={require('../../../images/liara.png')} />
-  </div>
+  <Link className='header' to='/'>
+    <img alt='Ellen and Alex playing and 8-bit version of a vacuum tube tv, with the words "Gaming Ever After" on screen' className='header-banner' src={require('../../../images/banner_tv.png')} />
+    <img alt='A logo in the shape of a controller that says "Gaming Ever After' className='header-banner-mobile' src={require('../../../images/banner_whitelogo.png')} />
+  </Link>
 
 export default withRouter(Header)

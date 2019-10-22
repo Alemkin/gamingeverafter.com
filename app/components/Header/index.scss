@@ -1,12 +1,24 @@
 @import "../../style/variables.scss";
 
 .header {
-  padding: 1rem;
   display: flex;
   justify-content: center;
+  overflow-x: hidden;
 
-  .header-image {
-    width: 5rem;
-    height: 3em;
+  .header-banner,
+  .header-banner-mobile {
+    display: none;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .header-banner {
+      display: initial;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .header-banner-mobile {
+      display: initial;
+    }
   }
 }

@@ -2,7 +2,7 @@
 
 .gaming-main {
   padding: 0 1rem;
-  width: 80%;
+  width: 75%;
   background: $themeBackground;
 
   @media only screen and (max-width: 800px) {
@@ -26,22 +26,22 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  background: $themeBackground;
   color: $themeFontColor;
+  background: $themeBackground;
 
   a {
-    color: $themePurple;
+    color: $themeBlue;
     text-decoration: none;
 
     &:hover,
     &:focus {
       text-decoration: none;
-      color: lighten($themePurple, 10%);
+      color: lighten($themeBlue, 10%);
     }
   }
 
   code {
-    color: $pastelPink;
+    color: $themeRed;
   }
 
   h1,
