@@ -16,7 +16,7 @@ const App = () =>
   <div className='gaming-main'>
     <Container fluid>
       <Row>
-        <Col>
+        <Col className='p-0'>
           <Route path='/' component={Header} />
         </Col>
       </Row>

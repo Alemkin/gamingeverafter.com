@@ -22,7 +22,7 @@
   .arrow {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 10px solid $themePurple;
+    border-top: 10px solid $themeBlue;
     right: 1rem;
     position: absolute;
   }
@@ -31,14 +31,14 @@
   &:focus {
     text-decoration: none;
     color: $themeFontColor;
-    box-shadow: 0 0 0 4px $themePurple;
+    box-shadow: 0 0 0 4px $themeBlue;
     // Showing the box shadow instead of outline
     outline: none;
 
     .arrow {
       border-left: 10px solid transparent;
       border-right: 10px solid transparent;
-      border-top: 10px solid $themePurple;
+      border-top: 10px solid $themeBlue;
       right: 1rem;
       position: absolute;
       animation: arrow_anim 0.4s steps(3) infinite;
