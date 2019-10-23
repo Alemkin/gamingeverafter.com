@@ -1,4 +1,11 @@
 export var articles = [{
+  title: 'Chapter Eight: Bloody Moon',
+  text: 'Unbelieveably, the stakes have risen, and our adventurers are locked in a tight race to complete their mission, while Tzaad succumbs to a forgotten secret.',
+  fileName: 'sessioneight',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd']
+}, {
   title: 'Chapter Seven: Henry Needs A Friend',
   text: 'It is time to put a plan into motion as events unfold that force the hand of our adventurers. One way or another, they are finding this damn chicken.',
   fileName: 'sessionseven',
