@@ -1,0 +1,12 @@
+.about {
+  .about-title-wrapper {
+    .about-title {
+      display: inline-block;
+      margin: 0 auto;
+
+      @media only screen and (max-width: 767px) {
+        display: block;
+      }
+    }
+  }
+}

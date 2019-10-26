@@ -2,7 +2,7 @@ import React from 'react'
 import './index.scss'
 
 const Games = props =>
-  <main className='games page-wrapper mt-4'>
+  <main className='games page-wrapper'>
     <a href='https://dnd.wizards.com/articles/features/basicrules' target='_blank'>{'Dungeons and Dragons 5E'}</a>
     <a href='https://www.thelastofus.playstation.com/' target='_blank'>{'The Last of Us'}</a>
     <a href='https://www.stardewvalley.net' target='_blank'>{'Stardew Valley'}</a>
@@ -11,6 +11,7 @@ const Games = props =>
     <a href='https://www.kingdomhearts.com' target='_blank'>{'Kingdom Hearts'}</a>
     <a href='https://insomniac.games/game/spider-man-ps4/' target='_blank'>{'Spider Man'}</a>
     <a href='https://braceyourselfgames.com/crypt-of-the-necrodancer/' target='_blank'>{'Crypt of the NecroDancer'}</a>
+    <img alt='Pixel version of Ellen in a wizard outfit holding a staff and playing with a fireball' src={require('../../../images/Wife_x3_1.gif')} />
   </main>
 
 export default Games

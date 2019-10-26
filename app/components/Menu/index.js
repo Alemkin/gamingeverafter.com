@@ -9,7 +9,6 @@ const MenuLink = ({ route, title, currentRoute }) =>
     <span className='title'>{title}</span>
   </Link>
 
-// TODO translate
 const Menu = ({ location }) =>
   <nav className='menu'>
     <MenuLink currentRoute={location.pathname} route='/about' title='About' />

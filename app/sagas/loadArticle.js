@@ -17,8 +17,7 @@ export function * work (action) {
   const res = yield window.fetch(filterMd[0])
   const article = yield res.text()
 
-  // TODO remove delay, just for loading fun right now
-  yield delay(300)
+  yield delay(2000)
   yield put(loadArticleComplete(article))
 }
 

@@ -11,14 +11,19 @@
     font-family: 'Determination', sans-serif;
 
     &.selected {
-      border: 2px solid;
-      border-radius: 5px;
-      padding: 6px 5px;
+      @media only screen and (min-width: 375px) {
+        border: 2px solid;
+        padding: 6px 5px;
+      }
     }
 
     .title {
-      padding: 0 1rem;
+      padding: 0 0.875rem;
       font-size: 16px;
+
+      @media only screen and (min-width: 375px) {
+        padding: 0 1rem;
+      }
     }
 
     &:hover,

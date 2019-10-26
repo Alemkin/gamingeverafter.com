@@ -1,8 +1,13 @@
 import React from 'react'
+import './index.scss'
 
 const About = props =>
   <main className='about mt-4 page-wrapper'>
-    <h2>About Us</h2>
+    <div className='about-title-wrapper'>
+      <img className='about-title' alt='Pixel version of Alex floating while holding a book and twirling a d20' src={require('../../../images/Nacho_x2_2.gif')} />
+      <h2 className='about-title'>About Us</h2>
+      <img className='about-title' alt='Pixel version of Ellen in a wizard outfit holding a staff and playing with a fireball' src={require('../../../images/Wife_x2_3.gif')} />
+    </div>
     <br />
     <p>
       {'Welcome to Gaming Ever After: A website dedicated to posts about games we play together, as man and wife.'}

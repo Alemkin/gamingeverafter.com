@@ -1,0 +1,39 @@
+@import "../../style/variables.scss";
+
+.article-list {
+  .chat-character,
+  .chat-character-mobile,
+  .image-items-small-mobile {
+    display: none;
+  }
+
+  .article-image-combo {
+    display: flex;
+  }
+
+  @media only screen and (max-width: 424px) {
+    .image-items-small-mobile {
+      display: initial;
+    }
+
+    .image-right {
+      display: none;
+    }
+
+    .article-image-combo {
+      display: block;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .chat-character {
+      display: initial;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .chat-character-mobile {
+      display: initial;
+    }
+  }
+}

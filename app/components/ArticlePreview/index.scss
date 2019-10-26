@@ -1,7 +1,6 @@
 @import "../../style/variables.scss";
 
 .article-preview {
-  border-radius: 5px;
   position: relative;
   box-shadow: 0 0 0 4px $themeFontColor;
   word-spacing: 3px;
@@ -10,8 +9,12 @@
   color: $themeFontColor;
   font-family: 'Determination', sans-serif;
 
-  @media only screen and (max-width: 800px) {
+  @media only screen and (min-width: 425px) and (max-width: 1000px) {
     width: 15rem;
+  }
+
+  @media only screen and (max-width: 424px) {
+    width: 100%;
   }
 
   @keyframes arrow_anim {
