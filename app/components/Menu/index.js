@@ -11,10 +11,10 @@ const MenuLink = ({ route, title, currentRoute }) =>
 
 const Menu = ({ location }) =>
   <nav className='menu'>
+    <MenuLink currentRoute={location.pathname} route='/' title='Home' />
     <MenuLink currentRoute={location.pathname} route='/about' title='About' />
     <MenuLink currentRoute={location.pathname} route='/contact' title='Contact' />
     <MenuLink currentRoute={location.pathname} route='/games' title='Games' />
-    <MenuLink currentRoute={location.pathname} route='/fight' title='Fight' />
   </nav>
 
 export default withRouter(Menu)

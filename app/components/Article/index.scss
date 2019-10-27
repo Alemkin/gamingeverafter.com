@@ -5,6 +5,16 @@
   line-height: 1.8;
   margin-bottom: 10rem;
 
+  .progress-bar {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    width: 0%;
+    height: 8px;
+    background: $themeFontColor;
+    margin-top: 4rem;
+  }
+
   .back-to-top-link {
     color: $themeBlue;
     text-align: center;
