@@ -9,7 +9,7 @@ const ImageAfter = ({ a }) =>
     <div className='image-items-small-mobile'>
       <img className='chat-character-mobile' alt='Pixel version of Ellen in a wizard outfit holding a staff and playing with a fireball' src={require('../../../images/Wife_x2_2.gif')} />
     </div>
-    <div className='image-items article-prev mb-5'>
+    <div className='image-items article-prev mt-4'>
       <ArticlePreview title={a.title} text={a.text} fileName={a.fileName} />
     </div>
     <div className='image-items image-right'>
@@ -24,7 +24,7 @@ const ImageBefore = ({ a }) =>
       <img className='chat-character' alt='Pixel version of Alex floating while holding a book and twirling a d20' src={require('../../../images/Nacho_x3_3.gif')} />
       <img className='chat-character-mobile' alt='Pixel version of Alex floating while holding a book and twirling a d20' src={require('../../../images/Nacho_x2_3.gif')} />
     </div>
-    <div className='image-items mb-5 ml-2'>
+    <div className='image-items mt-4 ml-2'>
       <ArticlePreview title={a.title} text={a.text} fileName={a.fileName} />
     </div>
   </>

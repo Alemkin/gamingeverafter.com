@@ -2,7 +2,7 @@
 
 .gaming-main {
   padding: 0 1rem;
-  width: 75%;
+  width: 70%;
   background: $themeBackground;
 
   @media only screen and (max-width: 800px) {
@@ -53,7 +53,7 @@ body {
   #app {
     display: flex;
     justify-content: center;
-    background-image: url("../../../images/oldschool.jpg");
+    background-image: url("../../../images/bg_x2.png");
     min-height: 100vh;
     background-attachment: fixed;
 

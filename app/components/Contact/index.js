@@ -10,7 +10,7 @@ const Contact = props =>
       <br />
       <sub><i>{'Please call me, I\'m so lonely'}</i></sub>
     </p>
-    <img alt='Pixel version of Alex floating while holding a book and twirling a d20' src={require('../../../images/Nacho_x3_1.gif')} />
+    <img alt='Alex dressed as Ash from Pokemon, tossing a pokeball up and down with a vulpix by his legs' src={require('../../../images/poke_x3.gif')} />
   </main>
 
 export default Contact
