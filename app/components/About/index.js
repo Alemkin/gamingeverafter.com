@@ -10,7 +10,7 @@ const About = props =>
     </div>
     <br />
     <p>
-      {'Welcome to Gaming Ever After: A website dedicated to posts about games we play together, as man and wife.'}
+      {'Welcome to Gaming Ever After: A website dedicated to posts about games we play together, as husband and wife.'}
     </p>
     <p>
       {'This will be a one stop shop for articles on any gaming for any platform that my wife and I play together. This includes but is not limited to games on consoles and table top games.'}
