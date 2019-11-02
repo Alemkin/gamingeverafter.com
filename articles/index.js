@@ -1,4 +1,11 @@
 export var articles = [{
+  title: 'Chapter Nine: The Lord of Fire',
+  text: 'A sullen trek up the mountain leads our adventurers into an unexpected situation, and Frain finds himself right at home.',
+  fileName: 'sessionnine',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd']
+}, {
   title: 'Chapter Eight: Bloody Moon',
   text: 'Unbelieveably, the stakes have risen, and our adventurers are locked in a tight race to complete their mission, while Tzaad succumbs to a forgotten secret.',
   fileName: 'sessioneight',
