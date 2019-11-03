@@ -1,10 +1,7 @@
 import React from 'react'
-import { translateComponent } from '../../utils/translate'
 import { withRouter } from 'react-router'
 import { Link } from 'react-router-dom'
 import './index.scss'
-
-const t = translateComponent('Header')
 
 const Header = () =>
   <Link className='header' to='/'>

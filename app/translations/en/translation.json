@@ -1,10 +1,4 @@
 {
-  "LoadingIcon": {
-    "loading": "LOADING ..."
-  },
-  "Header": {
-    "title": "Gaming Ever After"
-  },
   "NotFound": {
     "notfound": "You are now leaving Pallet Town",
     "return": "Continue to Viridian City..."

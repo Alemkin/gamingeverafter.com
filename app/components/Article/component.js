@@ -35,7 +35,7 @@ const Article = props => {
   const article = articles && articles.length && articles.find(findArticle(props.articleName))
   return (
     <main className='article'>
-      <LoadingIcon show={props.loading} />
+      {props.loading && <LoadingIcon show={props.loading} />}
       {props.article && <h1 className='mb-4 article-title'>{article && article.title}</h1>}
       <Markdown source={props.article} />
       {props.article && <i title='Back To Top' onClick={backToTop} className='back-to-top-link far fa-arrow-alt-circle-up' />}
