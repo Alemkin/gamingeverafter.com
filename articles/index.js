@@ -1,4 +1,11 @@
 export var articles = [{
+  title: 'Chapter Ten: Hallows Eve',
+  text: 'It is a pleasant Hallows Eve with our adventurers, as they gather with the community for a concert put on by Celestial, and reminisce on their individual journeys.',
+  fileName: 'sessionten',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd']
+}, {
   title: 'Chapter Nine: The Lord of Fire',
   text: 'A sullen trek up the mountain leads our adventurers into an unexpected situation, and Frain finds himself right at home.',
   fileName: 'sessionnine',
