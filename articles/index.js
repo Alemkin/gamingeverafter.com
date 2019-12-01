@@ -1,4 +1,11 @@
 export var articles = [{
+  title: 'Chapter Eleven: Major Manu to Ground Control',
+  text: 'Our adventurers secure passage to their next destination, only to have everything go awry in a most unexpected way.',
+  fileName: 'sessioneleven',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd']
+}, {
   title: 'Chapter Ten: Hallows Eve',
   text: 'It is a pleasant Hallows Eve with our adventurers, as they gather with the community for a concert put on by Celestial, and reminisce on their individual journeys.',
   fileName: 'sessionten',
