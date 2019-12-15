@@ -4,6 +4,7 @@ import Markdown from '../Markdown'
 import NotFound from '../NotFound'
 import LoadingIcon from '../LoadingIcon'
 import articles from '../../../articles'
+import { onEnterKeyPress } from '../../utils/keyPress'
 import './index.scss'
 
 const findArticle = articleName => article => article.fileName === articleName
@@ -38,7 +39,7 @@ const Article = props => {
       {props.loading && <LoadingIcon show={props.loading} />}
       {props.article && <h1 className='mb-4 article-title'>{article && article.title}</h1>}
       <Markdown source={props.article} />
-      {props.article && <i title='Back To Top' onClick={backToTop} className='back-to-top-link far fa-arrow-alt-circle-up' />}
+      {props.article && <i title='Back To Top' tabIndex={0} role='link' onKeyUp={onEnterKeyPress(backToTop)} onClick={backToTop} className='back-to-top-link far fa-arrow-alt-circle-up' />}
       {props.article && <div className='progress-bar' />}
     </main>
   )

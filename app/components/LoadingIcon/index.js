@@ -37,7 +37,7 @@ const LoadingIcon = () => {
       <img className='headset' alt='Pixel headset' src={require('../../../images/headset.png')} />
       <img className='cartridge' alt='Pixel game cartridge' src={require('../../../images/cartridge.png')} />
       <img className='nes_controller' alt='Pixel Nes Controller' src={require('../../../images/nes_controller.png')} />
-      <div className='loading-text'>{'LOADING'}</div>
+      <div className='loading-text'>LOADING</div>
     </div>
   )
 }
