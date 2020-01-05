@@ -1,4 +1,11 @@
 export var articles = [{
+  title: 'Chapter Fourteen: Adventures in Jersey Hill 2: Electric Boogaloo',
+  text: 'New Friends and old converge in this interlude on the journey of our adventurers.',
+  fileName: 'sessionfourteen',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd', 'tootp']
+}, {
   title: 'Chapter Thirteen: Answers',
   text: 'This is it, the moment that our adventurers realized there are answers right around the corner. On the tip of their swords and staffs, they were going to make their way to that ship at the top and figure out what is going on.',
   fileName: 'sessionthirteen',

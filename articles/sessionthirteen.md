@@ -122,7 +122,7 @@ After a minute of lurching they began a smoother ascent away form the ship and t
 
 Searching the ship, they find the rest of the rooms. Under the top deck in the back is a command center with a circular table in the middle, and screens showing video feeds of the angles of the ship, and a control panel for weapons. Below deck was one room full of the glass cubes from the other ship, and a bunch of rooms that seemed like sleeping quarters. 
 
-As they created the mountain range after about a half hour, there was an ear-splitting screech and an explosion. Running out onto the top deck, they looked back as the source of the sound and witnessed the metal ship detonating, sending a mushroom cloud of smoke and debris a thousand feet into the air. 
+As they crested the mountain range after about a half hour, there was an ear-splitting screech and an explosion. Running out onto the top deck, they looked back as the source of the sound and witnessed the metal ship detonating, sending a mushroom cloud of smoke and debris a thousand feet into the air. 
 
 “I hope Oakshadow made it out okay”, Tzaad whispered to himself, as they floated into the setting star, onward in search of more answers and adventure. 
 
