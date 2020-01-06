@@ -160,9 +160,9 @@ Constance beckoned to them, heading into the house and they followed. In the bac
 
  “I found them like this a few days ago, and I’m not old enough to inherit the farm for a few months! If they find out, they’ll take the farm and I’ll have nowhere to go. And there is one more thing.” Constance explained.
 
-She headed back out into the corridor and into the next room over, shing the light on a small, sick looking drown sitting against the wall, breathing shallowly and unconscious.
+She headed back out into the corridor and into the next room over, shing the light on a small, sick looking drow sitting against the wall, breathing shallowly and unconscious.
 
-Steph stepped forward, examining him. After a few moments she gave him a swift slap to the face, and he woke up startled. After he calmed down, he explained he was a Drow from the under dark that was doing smuggling work for the Goodroot family, Constance’s parents, as the Lord of Jersey Hill kept all goods from leaving the serfdom, and showed them a contract confirming it. 
+Steph stepped forward, examining him. After a few moments she gave him a swift slap to the face, and he woke up startled. After he calmed down, he explained he was a Drow from the Underdark that was doing smuggling work for the Goodroot family, Constance’s parents, as the Lord of Jersey Hill kept all goods from leaving the serfdom, and showed them a contract confirming it. 
 
 Steph inspected him a little further and was able to recognize his affliction as “The rot”, a fungal infection with no cure that took over the body and explained to the others about it. 
 
