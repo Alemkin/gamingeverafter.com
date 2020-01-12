@@ -38,7 +38,7 @@ module.exports = {
       { test: /\.(scss)$/, use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader', 'sass-loader'] },
       { test: /\.(css)$/, use: [MiniCssExtractPlugin.loader, 'css-loader'] },
       { test: /\.js$/, use: ['i18next-resource-store-loader'], include: path.join(__dirname, './app/translations') },
-      { test: /\.jpe?g$|\.ico$|\.md$|\.gif$|\.png$|\.svg$|\.woff$|\.ttf$|\.wav$|\.mp3$/, loader: 'file-loader?name=[path][name].[ext]' }
+      { test: /\.jpe?g$|\.ico$|\.vtt$|\.md$|\.gif$|\.png$|\.svg$|\.woff$|\.ttf$|\.wav$|\.mp3$/, loader: 'file-loader?name=[path][name].[ext]' }
     ]
   },
 

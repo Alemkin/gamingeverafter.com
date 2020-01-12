@@ -1,4 +1,11 @@
 export var articles = [{
+  title: 'Chapter Fifteen: A Bumpy Ride',
+  text: 'Our adventurers find themselves in another sudden set of circumstances, fighting for their survival.',
+  fileName: 'sessionfifteen',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd', 'tootp']
+}, {
   title: 'Chapter Fourteen: Adventures in Jersey Hill 2: Electric Boogaloo',
   text: 'New Friends and old converge in this interlude on the journey of our adventurers.',
   fileName: 'sessionfourteen',
