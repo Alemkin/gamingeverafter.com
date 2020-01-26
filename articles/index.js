@@ -1,4 +1,11 @@
 export var articles = [{
+  title: 'Chapter Sixteen: Just Another Bidet in the Life of an Adventurer',
+  text: 'Finding themselves in a strange new land, and not quite sure how they got here, our adventurers journey forth to encounter all manner of strange creature and contraption, including something called a "bidet".',
+  fileName: 'sessionsixteen',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd', 'tootp']
+}, {
   title: 'Chapter Fifteen: A Bumpy Ride',
   text: 'Our adventurers find themselves in another sudden set of circumstances, fighting for their survival.',
   fileName: 'sessionfifteen',
