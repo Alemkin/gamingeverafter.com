@@ -1,34 +1,45 @@
-import { connect } from 'react-redux'
-import { bindActionCreators, compose } from 'redux'
-import { get } from 'lodash'
-import { loadArticle, clearArticle } from '../../reducers/article'
+
+import React, { useEffect } from 'react'
+import { useSelector, useDispatch } from 'react-redux'
+import { useParams } from 'react-router-dom'
 import Article from './component'
+import { loadArticle, clearArticle, selectArticle } from '../../reducers/article'
 
 const importAll = r => r.keys().map(r)
 const markdownFiles = importAll(require.context('../../../articles', false, /\.md$/))
 
-const getArticleName = props => get(props, 'match.params.id')
-
-const loadArticleAsync = ({ loadArticle, clearArticle, articleName }) => () => {
-  loadArticle(articleName, markdownFiles)
-
-  return () => clearArticle()
+const scroll = () => {
+  const winScroll = document.body.scrollTop || document.documentElement.scrollTop
+  const height = document.documentElement.scrollHeight - document.documentElement.clientHeight
+  const scrolled = (winScroll / height) * 100
+  const elements = document.getElementsByClassName('progress-bar')
+  const el = elements && elements.length && elements[0]
+  if (!el) return
+  el.style.width = scrolled + '%'
 }
 
-const mapStateToProps = (state, props) => ({
-  articleName: getArticleName(props),
-  loading: state.article.loading,
-  article: state.article.content,
-  useLoadArticle: loadArticleAsync
-})
+const ArticleContainer = () => {
+  const dispatch = useDispatch()
+  const article = useSelector(selectArticle)
+  const { id } = useParams()
 
-const mapDispatchToProps = dispatch => bindActionCreators({
-  loadArticle,
-  clearArticle
-}, dispatch)
+  useEffect(() => {
+    dispatch(loadArticle(id, markdownFiles))
 
-const enhance = compose(
-  connect(mapStateToProps, mapDispatchToProps)
-)
+    return () => dispatch(clearArticle())
+  }, [])
 
-export default enhance(Article)
+  useEffect(() => {
+    window.addEventListener('scroll', scroll)
+
+    return () => {
+      window.removeEventListener('scroll', scroll)
+    }
+  })
+
+  return (
+    <Article loading={article.loading} article={article.content} />
+  )
+}
+
+export default ArticleContainer

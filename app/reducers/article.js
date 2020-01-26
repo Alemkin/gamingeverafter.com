@@ -1,3 +1,6 @@
+
+import { createSelector } from 'reselect'
+
 export const LOAD_ARTICLE = 'LOAD_ARTICLE'
 export const LOAD_ARTICLE_COMPLETE = 'LOAD_ARTICLE_COMPLETE'
 export const CLEAR_ARTICLE = 'CLEAR_ARTICLE'
@@ -37,3 +40,8 @@ export default function (state = initialState, action) {
     default: return state
   }
 }
+
+export const selectArticle = createSelector(
+  state => state.article,
+  article => article
+)
