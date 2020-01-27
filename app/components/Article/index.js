@@ -38,7 +38,7 @@ const ArticleContainer = () => {
   })
 
   return (
-    <Article loading={article.loading} article={article.content} />
+    <Article loading={article.loading} article={article.content} articleName={id} />
   )
 }
 
