@@ -41,9 +41,7 @@
     "reactstrap": "8.0.1",
     "redux": "4.0.4",
     "redux-saga": "1.0.5",
-    "reselect": "4.0.0",
-    "use-async-ops": "1.0.4",
-    "use-async-ops-redux": "1.0.1"
+    "reselect": "4.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.5.5",
