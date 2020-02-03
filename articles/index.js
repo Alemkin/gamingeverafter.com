@@ -1,4 +1,11 @@
 export var articles = [{
+  title: 'Chapter Seventeen: Errand Knights',
+  text: 'Our adventurer\'s are tasked with a series of odd quests that they jump into, not finding it easy to ingratiate themselves into this strange world they found themselves in.',
+  fileName: 'sessionseventeen',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd', 'tootp']
+}, {
   title: 'Chapter Sixteen: Just Another Bidet in the Life of an Adventurer',
   text: 'Finding themselves in a strange new land, and not quite sure how they got here, our adventurers journey forth to encounter all manner of strange creature and contraption, including something called a "bidet".',
   fileName: 'sessionsixteen',

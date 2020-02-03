@@ -27,7 +27,7 @@ const ArticleContainer = () => {
     dispatch(loadArticle(id, markdownFiles))
 
     return () => dispatch(clearArticle())
-  }, [])
+  }, [id])
 
   useEffect(() => {
     window.addEventListener('scroll', scroll)
