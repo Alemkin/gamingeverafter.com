@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 import PropTypes from 'prop-types'
+import { Button, Row, Col } from 'reactstrap'
 import ArticlePreview from '../ArticlePreview'
 import articles from '../../../articles'
 import './index.scss'
@@ -34,10 +35,42 @@ const mapArticle = (a, i) =>
     {i % 2 === 0 ? <ImageAfter a={a} /> : <ImageBefore a={a} />}
   </div>
 
-const ArticleList = () =>
-  <main className='article-list'>
-    {articles.map(mapArticle)}
-  </main>
+const Pagination = ({ page, handleChangePage, totalPages }) => {
+  const showPrevious = page < totalPages
+  const showNext = page > 0
+  return (
+    <Row className='mt-4'>
+      {showPrevious &&
+        <Col className='mt-2' xs={{ size: 12, offset: 0 }} md={{ size: 3, offset: 1 }}>
+          <Button title='Previous Page of Articles' type='button' onClick={handleChangePage(true)}>Previous Page</Button>
+        </Col>}
+      {showNext &&
+        <Col className='mt-2' xs={{ size: 12, offset: 0 }} md={{ size: 3, offset: showPrevious ? 3 : 7 }}>
+          <Button title='Next Page of Articles' type='button' onClick={handleChangePage(false)}>Next Page</Button>
+        </Col>}
+    </Row>
+  )
+}
+
+const pageSize = 7
+const ArticleList = () => {
+  const [page, changePage] = useState(0)
+  const articlesLength = (articles && articles.length) || 0
+  const totalPages = Math.ceil(articlesLength / pageSize) - 1
+  const handleChangePage = isNext => ev => isNext && page < totalPages ? changePage(page + 1)
+    : !isNext && page > 0 ? changePage(page - 1) : console.log('You can not change the page this way')
+
+  return (
+    <main className='article-list'>
+      {
+        articles &&
+        articles.length &&
+        articles.slice(page * pageSize, (pageSize * page) + pageSize).map(mapArticle)
+      }
+      <Pagination page={page} handleChangePage={handleChangePage} totalPages={totalPages} />
+    </main>
+  )
+}
 
 ArticleList.propTypes = {
   articles: PropTypes.array

@@ -1,6 +1,21 @@
 @import "../../style/variables.scss";
 
 .article-list {
+  button {
+    width: 100%;
+    background-color: $themeBackground;
+    color: $themeFontColor;
+    border: 2px solid $themeFontColor;
+    border-radius: 0;
+
+    &:hover,
+    &:focus {
+      background-color: $themeBlue;
+      border: 2px solid $themeBlue;
+      color: $themeBackground;
+    }
+  }
+
   padding-bottom: 3rem;
 
   .chat-character,
