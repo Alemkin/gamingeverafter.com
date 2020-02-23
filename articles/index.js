@@ -1,4 +1,11 @@
 export var articles = [{
+  title: 'Chapter Eighteen: A Tzaad Rodeo',
+  text: 'On the wild hunt, our adventurer\'s find it resembles more of a rodeo than a hunt, but run into more trouble than they were expecting.',
+  fileName: 'sessioneighteen',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd', 'tootp']
+}, {
   title: 'Chapter Seventeen: Errand Knights',
   text: 'Our adventurer\'s are tasked with a series of odd quests that they jump into, not finding it easy to ingratiate themselves into this strange world they found themselves in.',
   fileName: 'sessionseventeen',
