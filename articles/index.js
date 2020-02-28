@@ -1,4 +1,11 @@
 export var articles = [{
+  title: 'Chapter Nineteen: The A-Men',
+  text: 'On the day of the party, our adventurers realize they may be in for a lot more than they expected...',
+  fileName: 'sessionnineteen',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd', 'tootp']
+}, {
   title: 'Chapter Eighteen: A Tzaad Rodeo',
   text: 'On the wild hunt, our adventurer\'s find it resembles more of a rodeo than a hunt, but run into more trouble than they were expecting.',
   fileName: 'sessioneighteen',
