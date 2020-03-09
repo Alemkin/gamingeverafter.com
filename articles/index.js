@@ -1,4 +1,11 @@
 export var articles = [{
+  title: 'Chapter Twenty: Everyone\'s a Critic',
+  text: 'The group faces their inner demons.',
+  fileName: 'sessiontwenty',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd', 'tootp']
+}, {
   title: 'Chapter Nineteen: The A-Men',
   text: 'On the day of the party, our adventurers realize they may be in for a lot more than they expected...',
   fileName: 'sessionnineteen',
