@@ -1,4 +1,11 @@
 export var articles = [{
+  title: 'Chapter Twenty-One: Decisions',
+  text: 'It is time to make some decisions, but there may be more obstacles in their way then our adventurers realize.',
+  fileName: 'sessiontwentyone',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd', 'tootp']
+}, {
   title: 'Chapter Twenty: Everyone\'s a Critic',
   text: 'The group faces their inner demons.',
   fileName: 'sessiontwenty',
