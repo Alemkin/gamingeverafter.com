@@ -1,4 +1,11 @@
 export var articles = [{
+  title: 'Chapter Twenty-Three: Booksmart',
+  text: 'Our adventurers forget their sexual harassment training and begin a new adventure in the Scholar\'s Spire.',
+  fileName: 'sessiontwentythree',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd', 'tootp']
+}, {
   title: 'Chapter Twenty-Two: Stairway to Haven',
   text: 'Our adventurers have decided to head to Haven, but getting there is going to be a little tricky...',
   fileName: 'sessiontwentytwo',
