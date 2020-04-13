@@ -11,6 +11,7 @@ const Games = props =>
     <a href='https://www.kingdomhearts.com' target='_blank' rel='noopener noreferrer'>Kingdom Hearts</a>
     <a href='https://insomniac.games/game/spider-man-ps4/' target='_blank' rel='noopener noreferrer'>Spider Man</a>
     <a href='https://braceyourselfgames.com/crypt-of-the-necrodancer/' target='_blank' rel='noopener noreferrer'>Crypt of the NecroDancer</a>
+    <a href='https://www.quanticdream.com/en/detroit-become-human' target='_blank' rel='noopener noreferrer'>Detroit: Become Human</a>
     <img alt='Pixel version of Ellen in a wizard outfit holding a staff and playing with a fireball' src={require('../../../images/Wife_x3_1.gif')} />
   </main>
 
