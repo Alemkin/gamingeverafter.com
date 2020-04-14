@@ -1,4 +1,11 @@
 export var articles = [{
+  title: 'Chapter Twenty-Four: Atrophy',
+  text: 'Deep in the spire, our adventurers encounter new friends and foes.',
+  fileName: 'sessiontwentyfour',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd', 'tootp']
+}, {
   title: 'Chapter Twenty-Three: Booksmart',
   text: 'Our adventurers forget their sexual harassment training and begin a new adventure in the Scholar\'s Spire.',
   fileName: 'sessiontwentythree',
