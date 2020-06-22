@@ -1,4 +1,11 @@
 export var articles = [{
+  title: 'Chapter Twenty-Six: A Sticky Situation',
+  text: 'The gang finds themselves with no excuses, honestly just disappointed in their choices.',
+  fileName: 'sessiontwentysix',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd', 'tootp']
+}, {
   title: 'Chapter Twenty-Five: Murder They Wrote',
   text: 'In a new town, our adventurers find murder afoot, and do their best to garner information on The Heart.',
   fileName: 'sessiontwentyfive',
