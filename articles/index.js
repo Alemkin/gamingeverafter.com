@@ -1,4 +1,11 @@
 export var articles = [{
+  title: 'Chapter Twenty-Seven: A Dragon\'s Business',
+  text: 'An unexpected twist deepens our adventurers understanding of the struggle they face.',
+  fileName: 'sessiontwentyseven',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd', 'tootp']
+}, {
   title: 'Chapter Twenty-Six: A Sticky Situation',
   text: 'The gang finds themselves with no excuses, honestly just disappointed in their choices.',
   fileName: 'sessiontwentysix',
