@@ -6,15 +6,21 @@
     <meta name="Description" content="The couple that games together, stays together. Married and gaming since 2016, now we blog about it.">
     <meta name="keywords" content="Games, Video Games, Video Game, Blog, Blogging, Wedding, Married, Gamers, Gaming"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000">
     <link rel="icon" href="/images/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-4.2.1.min.css">
+    <link rel="manifest" href="/manifest.json">
     <title><%= htmlWebpackPlugin.options.title %></title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.0.0/polyfill.min.js"></script>
+    <script src="/assets/js/core-js-3.6.4.min.js"></script>
+    <script src="/assets/js/runtime-0.13.3.min.js"></script>
+    <link href="<%= htmlWebpackPlugin.files.css[0] %>" rel="stylesheet">
     <!-- Hey, you really shouldn't be looking at this. Go on, go enjoy the articles, get outta here! -->
   </head>
   <body>
     <div id="app"></div>
+    <script type="text/javascript" src="<%= htmlWebpackPlugin.files.js[0] %>"></script>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
   </body>
+  <noscript>Your browser does not support JavaScript</noscript>
 </html>

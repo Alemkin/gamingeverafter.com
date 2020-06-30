@@ -4,6 +4,9 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const TerserPlugin = require('terser-webpack-plugin')
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
+const { GenerateSW } = require('workbox-webpack-plugin')
+const ManifestPlugin = require('webpack-manifest-plugin')
+const CopyPlugin = require('copy-webpack-plugin')
 
 const encodingPlugin = new EncodingPlugin({
   encoding: 'UTF-8'
@@ -50,9 +53,21 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: 'index.html.ejs',
-      inject: 'body',
+      inject: false,
       filename: 'index.html',
       title: 'Gaming Ever After'
+    }),
+    new ManifestPlugin({
+      fileName: 'asset-manifest.json'
+    }),
+    new GenerateSW(),
+    new CopyPlugin({
+      patterns: [
+        { from: './pwa', to: '' },
+        { from: './assets/css/bootstrap-4.2.1.min.css', to: './assets/css' },
+        { from: './assets/js/core-js-3.6.4.min.js', to: './assets/js' },
+        { from: './assets/js/runtime-0.13.3.min.js', to: './assets/js' }
+      ]
     })
   ],
 

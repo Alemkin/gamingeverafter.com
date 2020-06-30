@@ -13,12 +13,6 @@
     "build": "cross-env NODE_ENV=production webpack --mode production",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --disable-host-check"
   },
-  "standard": {
-    "parser": "babel-eslint",
-    "env": [
-      "jest"
-    ]
-  },
   "eslintConfig": {
     "env": {
       "browser": true,
@@ -44,26 +38,28 @@
     "reselect": "4.0.0"
   },
   "devDependencies": {
-    "@babel/core": "7.5.5",
-    "@babel/preset-env": "7.5.5",
-    "@babel/preset-react": "7.0.0",
-    "@babel/runtime": "7.5.5",
+    "@babel/core": "7.10.4",
+    "@babel/preset-env": "7.10.4",
+    "@babel/preset-react": "7.10.4",
+    "@babel/polyfill": "7.10.4",
+    "@babel/runtime": "7.10.4",
     "autoprefixer": "9.6.1",
-    "babel-eslint": "10.0.2",
-    "babel-loader": "8.0.6",
+    "babel-eslint": "10.1.0",
+    "babel-loader": "8.1.0",
     "babel-plugin-transform-object-rest-spread": "7.0.0-beta.3",
-    "bootstrap": "4.3.1",
+    "bootstrap": "4.5.0",
     "circular-dependency-plugin": "5.0.2",
+    "copy-webpack-plugin": "6.0.2",
     "cross-env": "5.2.0",
     "css-loader": "3.1.0",
     "enzyme": "3.10.0",
     "enzyme-adapter-react-16": "1.14.0",
     "eslint": "6.7.2",
-    "eslint-config-standard": "14.1.0",
+    "eslint-config-standard": "14.1.1",
     "eslint-config-standard-jsx": "8.1.0",
-    "eslint-plugin-import": "2.19.1",
-    "eslint-plugin-jsx-a11y": "6.2.3",
-    "eslint-plugin-node": "10.0.0",
+    "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-jsx-a11y": "6.3.1",
+    "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-standard": "4.0.1",
     "file-loader": "4.1.0",
@@ -87,6 +83,8 @@
     "webpack-cli": "3.3.6",
     "webpack-dev-server": "^3.11.0",
     "webpack-encoding-plugin": "0.3.1",
-    "webpack-node-externals": "1.7.2"
+    "webpack-manifest-plugin": "2.2.0",
+    "webpack-node-externals": "1.7.2",
+    "workbox-webpack-plugin": "5.1.3"
   }
 }
