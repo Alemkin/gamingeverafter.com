@@ -1,4 +1,11 @@
 export var articles = [{
+  title: 'Chapter Twenty-Eight: Lightning Strikes Twice',
+  text: 'Bombshell revelations stoke suspicions in our ever-confused group of adventurers.',
+  fileName: 'sessiontwentyeight',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd', 'tootp']
+}, {
   title: 'Chapter Twenty-Seven: A Dragon\'s Business',
   text: 'An unexpected twist deepens our adventurers understanding of the struggle they face.',
   fileName: 'sessiontwentyseven',

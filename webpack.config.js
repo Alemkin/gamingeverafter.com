@@ -60,7 +60,9 @@ module.exports = {
     new ManifestPlugin({
       fileName: 'asset-manifest.json'
     }),
-    new GenerateSW(),
+    new GenerateSW({
+      exclude: ['index.html', '/index.html']
+    }),
     new CopyPlugin({
       patterns: [
         { from: './pwa', to: '' },
