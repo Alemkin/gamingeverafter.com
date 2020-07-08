@@ -1,4 +1,11 @@
 export var articles = [{
+  title: 'Chapter Twenty-Nine: Follow the Red Blood Road',
+  text: 'Endless challenges await the group as they trek through the unknown in Hell.',
+  fileName: 'sessiontwentynine',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd', 'tootp']
+}, {
   title: 'Chapter Twenty-Eight: Lightning Strikes Twice',
   text: 'Bombshell revelations stoke suspicions in our ever-confused group of adventurers.',
   fileName: 'sessiontwentyeight',
