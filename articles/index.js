@@ -1,4 +1,11 @@
 export var articles = [{
+  title: 'Chapter Thirty: Raiders of the Wasp Arc',
+  text: 'Our adventurers continue their trek through the treacherous halls of hell, having to use their brains more than they expected.',
+  fileName: 'sessionthirty',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd', 'tootp']
+}, {
   title: 'Chapter Twenty-Nine: Follow the Red Blood Road',
   text: 'Endless challenges await the group as they trek through the unknown in Hell.',
   fileName: 'sessiontwentynine',
