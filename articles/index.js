@@ -1,4 +1,11 @@
 export var articles = [{
+  title: 'Chapter Thirty-One: Reunions',
+  text: 'An emotional reunion is in store for our adventurers, giving insight and hope.',
+  fileName: 'sessionthirty',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd', 'tootp']
+}, {
   title: 'Chapter Thirty: Raiders of the Wasp Arc',
   text: 'Our adventurers continue their trek through the treacherous halls of hell, having to use their brains more than they expected.',
   fileName: 'sessionthirty',
