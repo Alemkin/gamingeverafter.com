@@ -1,7 +1,7 @@
 export var articles = [{
   title: 'Chapter Thirty-One: Reunions',
   text: 'An emotional reunion is in store for our adventurers, giving insight and hope.',
-  fileName: 'sessionthirty',
+  fileName: 'sessionthirtyone',
   tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
   authors: ['Alexander Lemkin'],
   related: ['dnd', 'tootp']
