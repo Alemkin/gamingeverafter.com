@@ -1,4 +1,11 @@
 export var articles = [{
+  title: 'Chapter Thirty-Three: Eiffel Tower',
+  text: 'Our adventurers work through a menagerie of traps and into yet another sticky situation on their trek through the inner sanctum.',
+  fileName: 'sessionthirtythree',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd', 'tootp']
+}, {
   title: 'Chapter Thirty-Two: Digital Defeat',
   text: 'Having resurrected the fifth company of the Hellriders, our adventurers turn their sights towards the inner sanctum.',
   fileName: 'sessionthirtytwo',
