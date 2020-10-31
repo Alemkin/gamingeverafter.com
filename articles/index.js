@@ -1,4 +1,18 @@
 export var articles = [{
+  title: 'Chapter Thirty-Five: {TITLE}',
+  text: '{DESCRIPTION}',
+  fileName: 'sessionthirtyfive',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd', 'tootp']
+}, {
+  title: 'Chapter Thirty-Four: {TITLE}',
+  text: '{DESCRIPTION}',
+  fileName: 'sessionthirtyfour',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd', 'tootp']
+}, {
   title: 'Chapter Thirty-Three: Eiffel Tower',
   text: 'Our adventurers work through a menagerie of traps and into yet another sticky situation on their trek through the inner sanctum.',
   fileName: 'sessionthirtythree',
