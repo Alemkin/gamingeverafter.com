@@ -1,13 +1,13 @@
 export var articles = [{
-  title: 'Chapter Thirty-Five: {TITLE}',
-  text: '{DESCRIPTION}',
+  title: 'Chapter Thirty-Five: G-String',
+  text: 'Scantily clad, our adventurers find their way back to Arctis Tor to begin the next phase of their fight against The Others.',
   fileName: 'sessionthirtyfive',
   tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
   authors: ['Alexander Lemkin'],
   related: ['dnd', 'tootp']
 }, {
-  title: 'Chapter Thirty-Four: {TITLE}',
-  text: '{DESCRIPTION}',
+  title: 'Chapter Thirty-Four: THAWS',
+  text: 'The group wraps up their quest on this leg of the journey, looking towards the future… and brunch.',
   fileName: 'sessionthirtyfour',
   tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
   authors: ['Alexander Lemkin'],
