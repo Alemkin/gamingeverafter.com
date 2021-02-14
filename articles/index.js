@@ -1,4 +1,11 @@
 export var articles = [{
+  title: 'Chapter Thirty-Six: Feline Conversation',
+  text: 'Our adventurers plot out their next course of action but find surprises through the weave of their words.',
+  fileName: 'sessionthirtysix',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd', 'tootp']
+}, {
   title: 'Chapter Thirty-Five: G-String',
   text: 'Scantily clad, our adventurers find their way back to Arctis Tor to begin the next phase of their fight against The Others.',
   fileName: 'sessionthirtyfive',
