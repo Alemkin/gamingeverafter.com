@@ -1,4 +1,11 @@
 export var articles = [{
+  title: 'Chapter Thirty-Seven: A "Head" of the Game',
+  text: 'Our adventurers continue their trek through the bloody mess they’ve found themselves in.',
+  fileName: 'sessionthirtyseven',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd', 'tootp']
+}, {
   title: 'Chapter Thirty-Six: Feline Conversation',
   text: 'Our adventurers plot out their next course of action but find surprises through the weave of their words.',
   fileName: 'sessionthirtysix',
