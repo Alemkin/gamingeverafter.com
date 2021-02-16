@@ -1,4 +1,11 @@
 export var articles = [{
+  title: 'Chapter Thirty-Eight: All’s Well That Costs Well',
+  text: 'The group regroups and recuperates after the harrowing events in the Astral Plane and talk through their next steps.',
+  fileName: 'sessionthirtyeight',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd', 'tootp']
+}, {
   title: 'Chapter Thirty-Seven: A "Head" of the Game',
   text: 'Our adventurers continue their trek through the bloody mess they’ve found themselves in.',
   fileName: 'sessionthirtyseven',
