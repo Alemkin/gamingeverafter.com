@@ -1,4 +1,18 @@
 export var articles = [{
+  title: 'Chapter Forty: Best Laid Plans',
+  text: 'Together our adventurers come up with a plan for their final assault, and pray to many gods that it will work.',
+  fileName: 'sessionforty',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd', 'tootp']
+},{
+  title: 'Chapter Thirty-Nine: A Mother\'s Love',
+  text: 'It is time for some book learning as the group finds themselves in several familiar situations.',
+  fileName: 'sessionthirtynine',
+  tags: ['dnd', 'd&d', 'dnd5e', 'd&d5e', 'dungeonsanddragons', 'tabletop', 'rpg', 'tabletoprpg'],
+  authors: ['Alexander Lemkin'],
+  related: ['dnd', 'tootp']
+},{
   title: 'Chapter Thirty-Eight: All’s Well That Costs Well',
   text: 'The group regroups and recuperates after the harrowing events in the Astral Plane and talk through their next steps.',
   fileName: 'sessionthirtyeight',
